@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="display-area">
+            <div class="title-block">
+                <h1>Calculator</h1>
+            </div>
+            <div class="calculator-display">
+                <div class="history-display">
+                    <div class="history-row">
+                        <label for="history-1">1</label>
+                        <input id="history-1">
+                    </div>
+                    <div class="history-row">
+                        <label for="history-2">2</label>
+                        <input id="history-2">
+                    </div>
+                    <div class="history-row">
+                        <label for="history-3">3</label>
+                        <input id="history-3">
+                    </div>
+                    <div class="history-row">
+                        <label for="history-4">4</label>
+                        <input id="history-4">
+                    </div>
+                    <div class="history-row">
+                        <label for="history-5">5</label>
+                        <input id="history-5">
+                    </div>
+                    <button type="button" id="button-clearhistory">Clear History</button>
+                </div>
+                <div class="calculator">
+                    <div class="box-calculator"><input id="input-calculator" type="text" placeholder="hola"></div>
+                    <div>
+                        <div class="calculator-buttons-area">
+                            <div class="numbers-area">
+                                <div class="numbers">
+                                    <button type="button" class="buttonNum">1</button>
+                                    <button type="button" class="buttonNum">2</button>
+                                    <button type="button" class="buttonNum">3</button>
+                                    <button type="button" class="buttonNum">4</button>
+                                    <button type="button" class="buttonNum">5</button>
+                                    <button type="button" class="buttonNum">6</button>
+                                    <button type="button" class="buttonNum">7</button>
+                                    <button type="button" class="buttonNum">8</button>
+                                    <button type="button" class="buttonNum">9</button>
+                                </div>
+                                <div class="zero-decimal">
+                                    <button type="button" class="buttonNum">0</button>
+                                    <button type="button" id="decimalBtn">.</button>
+                                </div>
+                            </div>
+                            <div class="calculator-actions">
+                                <button type="button" class="buttonAct" id="addBtn">+</button>
+                                <button type="button" class="buttonAct" id="substractBtn">-</button>
+                                <button type="button" class="buttonAct" id="multiplyBtn">*</button>
+                                <button type="button" class="buttonAct" id="divideBtn">/</button>
+                                <button type="button" class="buttonAct" id="enterBtn">ENTER</button>
+                                <button type="button" class="buttonAct" id="clearBtn">CLEAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

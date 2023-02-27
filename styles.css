@@ -1,0 +1,95 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(230, 230, 230);
+
+}
+
+.display-area{
+    margin: auto;
+    border-style: solid;
+    min-width: 25%;
+    max-width: 90%;
+    min-height: 30%;
+
+}
+
+.title-block {
+    display: block;
+    border: 1px;
+    margin: 10px;
+    border-style: solid;
+    background-color: grey;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+.calculator-display{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    min-height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.history-display{
+    display:grid;
+    background-color: skyblue;
+    width:100%;
+}
+
+.history-display input{
+    width: 90%;
+    height: 25px;
+}
+.calculator{
+    background-color: aqua;
+}
+
+.history-row{
+    margin: 10px;
+    width: 100%;
+}
+
+.box-calculator{
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: lightgreen;
+    
+}
+
+.box-calculator > input{
+    font-size: 30px;
+    text-align: right;
+    width: 75%;
+}
+
+.numbers-area{
+    
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: 33% 33% 33%
+}
+
+.zero-decimal{
+    display: grid;
+    grid-template-columns: 66% 33%;
+}
+
+.calculator-actions > button{
+    width: 100%;
+
+}
+.calculator-buttons-area{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
